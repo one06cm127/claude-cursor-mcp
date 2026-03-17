@@ -4,6 +4,10 @@ Lets Claude.ai talk directly to your Cursor editor — read files, write code, g
 
 ## 📖 Full setup guide + download → [one06cm127.github.io/claude-cursor-mcp](https://one06cm127.github.io/claude-cursor-mcp)
 
+> ⭐ If this actually worked for you, drop a star — it helps more people find it!
+
+> 💬 **Heads up** — I vibe coded this whole thing, so if something's broken or you need help setting it up, just ask Claude lol
+
 ## What's Included
 
 - `cursor-mcp-bridge-0.0.1.vsix` — Cursor/VS Code extension (install this first)
