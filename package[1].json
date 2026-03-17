@@ -1,0 +1,25 @@
+{
+  "name": "cursor-mcp-bridge",
+  "publisher": "community",
+  "displayName": "Claude-Cursor MCP Bridge",
+  "description": "Allows Claude.ai to read and write files in Cursor via MCP",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cursorMcp.restart",
+        "title": "Claude-Cursor MCP: Restart Bridge Server"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "npx @vscode/vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  }
+}
